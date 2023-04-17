@@ -25,6 +25,11 @@ header img {
   width: 100%;
 }
 
+main div video {
+  width: 100%;
+  text-align: center;
+}
+
 footer {
   background-image: url(../img/background-placa-blanco.jpg);
 }
