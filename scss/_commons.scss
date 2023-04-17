@@ -1,0 +1,79 @@
+
+h1,
+h2 {
+    color: $mainColor;
+    font-family: $mainFont;
+    font-weight: $textNegrita;
+}
+
+h1 {
+    font-size: $textXlg;
+}
+
+h2 {
+    font-size: $textLg;
+}
+
+p {
+    font-family: $mainFont;
+    font-weight: $textMedio;
+    font-size: $textSm;
+    line-height: 1.2em;
+}
+
+header img {
+    width: 100%;
+}
+
+footer {
+    background-image: url(../img/background-placa-blanco.jpg);
+    a{
+        text-decoration: none;
+    }
+}
+
+.contenedor {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px 50px;
+    border: dashed 5px $mainColor;
+}
+
+.mapa{
+    width: 100%;
+    height: 525px;
+}
+
+.bg-azul {
+    background-color: $keyColor;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.img-med {
+    width: 500px;
+    height: 300px;
+}
+
+.object-fill {
+    object-fit: fill;
+}
+
+.flex-centrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}

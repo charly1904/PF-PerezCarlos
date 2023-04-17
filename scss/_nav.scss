@@ -1,0 +1,14 @@
+.edit-nav{
+    font-size: $textMd;
+    ul{
+        li{
+            a{
+                color: $secondaryColor;
+                &:hover{
+                    color: $mainColor;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
