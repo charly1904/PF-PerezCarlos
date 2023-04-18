@@ -28,10 +28,17 @@ header img {
 main{
     div{
         video{
-            width: 100%;
+            width: 90%;
             text-align: center;
+            margin-top: 20px;
         }
     }
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
 }
 
 footer {
@@ -71,8 +78,10 @@ footer {
 }
 
 .img-med {
-    width: 500px;
-    height: 300px;
+        width: 80%;
+        height: auto;
+        object-fit: cover;
+        text-align: center;
 }
 
 .object-fill {

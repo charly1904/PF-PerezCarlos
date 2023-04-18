@@ -26,6 +26,13 @@
     .mapa{
         text-align: center;
     }
+
+    .img-med{
+        width: 80%;
+        height: auto;
+        object-fit: cover;
+        text-align: center;
+    }
 }
 
 @media (max-width: 768px) {
@@ -57,6 +64,13 @@
 
 .mapa{  
     margin-left: auto;
+}
+
+.img-med{
+        width: 80%;
+        height: auto;
+        object-fit: cover;
+        text-align: center;
 }
 
 }
