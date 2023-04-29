@@ -1,0 +1,23 @@
+//extend
+
+.contenedor {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px 50px;
+    border: dashed 5px $mainColor;
+}
+
+.contenedor2 {
+    @extend .contenedor;
+    border: dotted 5px $mainColor;
+}
+
+//mixins
+
+@mixin textos ($size, $line, $color){
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+    font-family: $mainFont;
+}
